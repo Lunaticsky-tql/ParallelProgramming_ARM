@@ -11,7 +11,7 @@ POSTING_LIST *posting_list_container = (struct POSTING_LIST *) malloc(POSTING_LI
 vector<vector<int> > query_list_container;
 MyTimer time_get_intersection;
 
-int QueryNum = 500;
+int QueryNum = 999;
 
 void get_sorted_index(POSTING_LIST *queried_posting_list, int query_word_num, int *sorted_index) {
 

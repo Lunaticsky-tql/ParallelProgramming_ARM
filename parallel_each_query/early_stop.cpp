@@ -171,7 +171,7 @@ int main() {
         query_starter(simplified_Adp_result);
 //        for (int j = 0; j < 5; ++j) {
 //            printf("result %d: ", j);
-//            printf("%zu\n", simplified_Adp_result[j].size());
+//            printf("%zu\n", simplified_Adp_result[j].SIZE());
 //            for (unsigned int k : simplified_Adp_result[j]) {
 //                printf("%d ", k);
 //            }

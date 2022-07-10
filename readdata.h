@@ -72,7 +72,7 @@ int read_posting_list(struct POSTING_LIST* posting_list_container) {
             if (feof(fi)) break;
         }
         if (feof(fi)) break;
-        POSTING_LIST tmp{};
+        POSTING_LIST tmp;
         tmp.len = array_len;
         tmp.arr = temp_arr;
         posting_list_container[posting_list_counter].len = array_len;

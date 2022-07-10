@@ -145,8 +145,8 @@ int main() {
         query_starter();
         //print the intersection of first 5 requests
         for (int i = 0; i < 5; ++i) {
-            printf("request %d: %zu\n", i, simplified_Adp_result[0][i].size());
-            for(int j=0;j<simplified_Adp_result[0][i].size();j++)
+            printf("request %d: %zu\n", i, simplified_Adp_result[0][i].SIZE());
+            for(int j=0;j<simplified_Adp_result[0][i].SIZE(); j++)
             {
                 printf("%d ", simplified_Adp_result[0][i][j]);
             }
